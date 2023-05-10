@@ -11,11 +11,4 @@ class profilecontroller extends Controller
         $user_data=User::get();
         return view("viewprofile" ,compact('user_data'));
     }
- // public function store(Request $Request){
-   // $first_name=$Request['first_name'];
-   // $last_name=$Request['Last_name'];
-  //  $phone_number=$Request['phonenumber'];
-
-
- // }
 }
